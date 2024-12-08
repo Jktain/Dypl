@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dypl", "Dypl.csproj", "{127469BC-69C3-4281-8F13-9BDCEFFB9759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dypl0", "..\Dypl0\Dypl0.csproj", "{F4881F9B-6A55-4206-BC3C-4C0D5579E4A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{127469BC-69C3-4281-8F13-9BDCEFFB9759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{127469BC-69C3-4281-8F13-9BDCEFFB9759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{127469BC-69C3-4281-8F13-9BDCEFFB9759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{127469BC-69C3-4281-8F13-9BDCEFFB9759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4881F9B-6A55-4206-BC3C-4C0D5579E4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4881F9B-6A55-4206-BC3C-4C0D5579E4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4881F9B-6A55-4206-BC3C-4C0D5579E4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4881F9B-6A55-4206-BC3C-4C0D5579E4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1746A155-9268-4351-983C-83A29A776D71}
+	EndGlobalSection
+EndGlobal
