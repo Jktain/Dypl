@@ -7,21 +7,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Windows.Forms.DataVisualization.Charting;
 
 namespace Dypl
 {
-    public partial class Вікно_3 : Form
+    public partial class Вікно_2 : Form
     {
-        public Вікно_3()
+        public Вікно_2()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Вікно_2 Sec_win = new Вікно_2();
-            Sec_win.Show();
+            Вікно_1 First_win = new Вікно_1();
+            First_win.Show();
+            Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Вікно_3 Third_win = new Вікно_3();
+            Third_win.Show();
             Close();
         }
     }
