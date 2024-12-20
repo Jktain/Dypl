@@ -11,8 +11,7 @@ namespace Dypl
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Вікно_1 Fir_win = new Вікно_1();
-            Application.Run(Fir_win);
+            Application.Run(new Вікно_1());
         }
     }
 }

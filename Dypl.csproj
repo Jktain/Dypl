@@ -74,6 +74,12 @@
     <Compile Include="Вікно 1.Designer.cs">
       <DependentUpon>Вікно 1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Вікно 4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Вікно 4.Designer.cs">
+      <DependentUpon>Вікно 4.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -92,6 +98,9 @@
     </Compile>
     <EmbeddedResource Include="Вікно 1.resx">
       <DependentUpon>Вікно 1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Вікно 4.resx">
+      <DependentUpon>Вікно 4.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -124,6 +133,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Screenshot_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_14.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

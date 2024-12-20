@@ -19,16 +19,31 @@ namespace Dypl
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Вікно_1 First_win = new Вікно_1();
-            First_win.Show();
-            Close();
+            Вікно_1 previousForm = Application.OpenForms.OfType<Вікно_1>().FirstOrDefault();
+
+            if (previousForm != null)
+            {
+                previousForm.Show();
+            }
+
+            Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Вікно_3 Third_win = new Вікно_3();
-            Third_win.Show();
-            Close();
+            Вікно_3 nextForm = Application.OpenForms.OfType<Вікно_3>().FirstOrDefault();
+
+            if (nextForm != null)
+            {
+                nextForm.Show();
+            }
+            else
+            {
+                Вікно_3 NextForm = new Вікно_3();
+                NextForm.Show();
+            }
+
+            Hide();
         }
     }
 }

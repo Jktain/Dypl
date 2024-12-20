@@ -19,8 +19,18 @@ namespace Dypl
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Вікно_2 Sec_win = new Вікно_2();
-            Sec_win.Show();
+            Вікно_2 nextForm = Application.OpenForms.OfType<Вікно_2>().FirstOrDefault();
+
+            if (nextForm != null)
+            {
+                nextForm.Show();
+            }
+            else
+            {
+                Вікно_2 NextForm = new Вікно_2();
+                NextForm.Show();
+            }
+
             Hide();
         }
 
